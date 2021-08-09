@@ -13,8 +13,8 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
-        curl -X GET https://www.meldkamerspel.com/einsaetze.json > nl_NL.json | jq '.'
-     - name: Prettify code
+        curl -X GET https://www.meldkamerspel.com/einsaetze.json > nl_NL.json
+    - name: Prettify code
       uses: creyD/prettier_action@v3.3
       with:
         # This part is also where you can pass other options, for example:
