@@ -14,6 +14,8 @@ jobs:
     - name: Create local changes
       run: |
         curl -X GET https://www.meldkamerspel.com/einsaetze.json > nl_NL.json | jq .
+        
+        jq . nl_NL.json > nl_NL.json
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
