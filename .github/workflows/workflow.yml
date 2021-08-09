@@ -13,9 +13,7 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - name: Create local changes
       run: |
-        curl -X GET https://www.meldkamerspel.com/einsaetze.json > nl_NL.json | jq .
-        
-        jq . nl_NL.json > nl_NL.json
+        curl -X GET https://www.meldkamerspel.com/einsaetze.json > nl_NL.json | jq '.'
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
