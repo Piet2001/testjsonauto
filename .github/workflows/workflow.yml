@@ -14,6 +14,7 @@ jobs:
     - name: Create local changes
       run: |
         curl -X GET https://www.meldkamerspel.com/einsaetze.json > nl_NL.json
+        curl -X GET https://www.leitstellenspiel.de/einsaetze.json > de_DE.json
         curl -X GET https://www.meldkamerspel.com/alliance_event_types.json > events/nl_NL.json 
         
     - name: Prettify code
