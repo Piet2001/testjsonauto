@@ -14,20 +14,13 @@ jobs:
     - name: Create local changes
       run: |
         curl -X GET https://www.meldkamerspel.com/einsaetze.json > nl_NL.json
+        curl -X GET https://www.meldkamerspel.com/alliance_event_types.json > events/nl_NL.json 
+        
     - name: Prettify code
       uses: creyD/prettier_action@v3.3
       with:
         # This part is also where you can pass other options, for example:
         prettier_options: --write **/*.{js,md,json}
+        commit_message: "Update files"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
-    - name: Commit files
-      run: |
-        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git commit -m "Add changes" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
