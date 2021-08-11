@@ -184,7 +184,10 @@
       "min_pump_speed": 1500
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "pump_water_amount": 3000
+    },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "alternate_version": null
   },
@@ -2192,7 +2195,8 @@
     "additional": {
       "expansion_missions_ids": [656],
       "allow_rw_instead_of_lf": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "pump_water_amount": 8000
     },
     "prerequisites": { "main_building": 0, "fire_stations": 4 },
     "alternate_version": null
@@ -4018,7 +4022,8 @@
     "chances": {},
     "additional": {
       "allow_rw_instead_of_lf": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "pump_water_amount": 30000
     },
     "prerequisites": { "main_building": 0, "fire_stations": 4 },
     "alternate_version": null
@@ -4331,7 +4336,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [655],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "pump_water_amount": 40000
     },
     "prerequisites": {
       "main_building": 0,
@@ -4356,7 +4362,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [657, 658],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "pump_water_amount": 50000
     },
     "prerequisites": {
       "main_building": 0,
@@ -4385,7 +4392,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [657, 658],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "pump_water_amount": 50000
     },
     "prerequisites": {
       "main_building": 0,
@@ -14389,7 +14397,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [659],
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 100000
     },
     "prerequisites": {
       "main_building": 9,
@@ -14434,7 +14443,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [659],
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 100000
     },
     "prerequisites": {
       "main_building": 9,
@@ -14482,6 +14492,7 @@
       "possible_patient": 17,
       "followup_missions_ids": [244, 298, 273, 497, 253],
       "filter_id": "water_watch_missions",
+      "pump_water_amount": 100000,
       "patient_specializations": "Allgemeine Innere"
     },
     "prerequisites": {
@@ -14551,6 +14562,7 @@
     "additional": {
       "possible_patient": 17,
       "filter_id": "water_watch_missions",
+      "pump_water_amount": 100000,
       "patient_specializations": "Allgemeine Innere"
     },
     "prerequisites": {
@@ -19490,7 +19502,10 @@
       "pump": 1
     },
     "chances": { "gwoil": 50 },
-    "additional": { "filter_id": "technical_aid_organization_missions" },
+    "additional": {
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 100000
+    },
     "prerequisites": {
       "main_building": 9,
       "police_stations": 2,
@@ -19516,7 +19531,10 @@
     ],
     "requirements": { "thw_gkw": 2, "pump": 1 },
     "chances": {},
-    "additional": { "filter_id": "technical_aid_organization_missions" },
+    "additional": {
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 50000
+    },
     "prerequisites": {
       "main_building": 9,
       "thw": 1,
@@ -19542,7 +19560,8 @@
     "chances": { "gwoil": 35 },
     "additional": {
       "expansion_missions_ids": [658],
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 70000
     },
     "prerequisites": {
       "main_building": 9,
@@ -19578,7 +19597,10 @@
       "min_pump_speed": 27000
     },
     "chances": { "mobile_command_vehicles": 30, "water_tankers": 50 },
-    "additional": { "filter_id": "technical_aid_organization_missions" },
+    "additional": {
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 120000
+    },
     "prerequisites": {
       "main_building": 9,
       "police_stations": 2,
@@ -19615,7 +19637,11 @@
       "min_pump_speed": 30000
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "pump_water_amount": 500000,
+      "pump_mission_mode": "before_mission"
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 5,
@@ -19641,7 +19667,10 @@
     ],
     "requirements": { "thw_gkw": 1, "thw_mtwtz": 1, "pump": 1 },
     "chances": {},
-    "additional": { "filter_id": "technical_aid_organization_missions" },
+    "additional": {
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 10000
+    },
     "prerequisites": {
       "main_building": 9,
       "thw": 1,
@@ -19673,7 +19702,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [662],
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 30000
     },
     "prerequisites": {
       "main_building": 9,
@@ -19710,7 +19740,10 @@
       "min_pump_speed": 25000
     },
     "chances": {},
-    "additional": { "filter_id": "technical_aid_organization_missions" },
+    "additional": {
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 100000
+    },
     "prerequisites": {
       "main_building": 9,
       "thw": 4,
@@ -19752,7 +19785,11 @@
       "min_pump_speed": 25000
     },
     "chances": { "gwoil": 50 },
-    "additional": { "filter_id": "technical_aid_organization_missions" },
+    "additional": {
+      "filter_id": "technical_aid_organization_missions",
+      "pump_water_amount": 80000,
+      "pump_mission_mode": "before_mission"
+    },
     "prerequisites": {
       "main_building": 9,
       "police_stations": 2,
