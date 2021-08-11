@@ -178,16 +178,9 @@
       "/images/fire_gelb.png",
       "/images/fire_rot.png"
     ],
-    "requirements": {
-      "firetrucks": 1,
-      "water_damage_pump": 1,
-      "min_pump_speed": 1500
-    },
+    "requirements": { "firetrucks": 1 },
     "chances": {},
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "pump_water_amount": 3000
-    },
+    "additional": { "filter_id": "firehouse_missions" },
     "prerequisites": { "main_building": 0, "fire_stations": 1 },
     "alternate_version": null
   },
