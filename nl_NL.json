@@ -30411,5 +30411,265 @@
     "overlay_index": null,
     "base_mission_id": 931,
     "additive_overlays": ""
+  },
+  {
+    "id": "932",
+    "name": "Brand op veerpont",
+    "place": "Haventerrein\nJachthaven\nRivier\nMeer",
+    "place_array": ["Haventerrein", "Jachthaven", "Rivier", "Meer"],
+    "average_credits": 3680,
+    "generated_by": "Waterongevallen",
+    "icons": [
+      "/images/boat_gruen.png",
+      "/images/boat_gelb.png",
+      "/images/boat_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 1,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2,
+      "diver_units": 1,
+      "boats": 1
+    },
+    "chances": { "boats": 25, "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 5,
+      "possible_patient_min": 2,
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "water_watch_missions",
+      "patient_specializations": "Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": -3,
+      "wasserrettung": 2,
+      "water_rescue_2": 2,
+      "rescue_stations": 8,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 932,
+    "additive_overlays": ""
+  },
+  {
+    "id": "932-0",
+    "name": "Brand op veerpont",
+    "place": "Haventerrein\nJachthaven\nRivier\nMeer",
+    "place_array": ["Haventerrein", "Jachthaven", "Rivier", "Meer"],
+    "average_credits": 10070,
+    "generated_by": "Waterongevallen",
+    "icons": [
+      "/images/boat_gruen.png",
+      "/images/boat_gelb.png",
+      "/images/boat_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 500,
+      "firetrucks": 3,
+      "battalion_chief_vehicles": 1,
+      "mobile_command_vehicles": 1,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 4,
+      "ovdp": 1,
+      "water_rescue": 1,
+      "diver_units": 3,
+      "boats": 3,
+      "foam": 1
+    },
+    "chances": { "boats": 40, "nef": 15, "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 20,
+      "possible_patient_min": 5,
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "water_watch_missions",
+      "patient_specializations": "Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": -3,
+      "wasserrettung": 8,
+      "water_rescue_2": 7,
+      "rescue_stations": 12,
+      "police_stations": 8,
+      "fire_support_count": 1,
+      "fire_stations": 19
+    },
+    "overlay_index": 0,
+    "base_mission_id": 932,
+    "additive_overlays": ""
+  },
+  {
+    "id": "932-1",
+    "name": "Brand op veerpont",
+    "place": "Haventerrein\nJachthaven\nRivier\nMeer",
+    "place_array": ["Haventerrein", "Jachthaven", "Rivier", "Meer"],
+    "average_credits": 17125,
+    "generated_by": "Waterongevallen",
+    "icons": [
+      "/images/boat_gruen.png",
+      "/images/boat_gelb.png",
+      "/images/boat_rot.png"
+    ],
+    "requirements": {
+      "foam_needed": 500,
+      "firetrucks": 6,
+      "spokesman": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "platform_trucks": 2,
+      "heavy_rescue_vehicles": 1,
+      "mobile_air_vehicles": 1,
+      "gwmess": 3,
+      "hazmat_vehicles": 1,
+      "police_cars": 6,
+      "ovdp": 1,
+      "water_rescue": 2,
+      "diver_units": 4,
+      "boats": 4,
+      "bike_police": 1,
+      "foam": 1
+    },
+    "chances": { "boats": 25, "nef": 15, "patient_transport": 100 },
+    "additional": {
+      "possible_patient": 30,
+      "possible_patient_min": 10,
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "water_watch_missions",
+      "need_bike_police_only_if_present": true,
+      "patient_specializations": "Traumatologie"
+    },
+    "prerequisites": {
+      "main_building": -3,
+      "wasserrettung": 8,
+      "water_rescue_2": 7,
+      "rescue_stations": 12,
+      "police_stations": 8,
+      "fire_support_count": 1,
+      "fire_stations": 19
+    },
+    "overlay_index": 1,
+    "base_mission_id": 932,
+    "additive_overlays": ""
+  },
+  {
+    "id": "935",
+    "name": "Gesmolten chocolade haas",
+    "place": "",
+    "place_array": [],
+    "average_credits": 100,
+    "generated_by": "Brandweer, Kazerne",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": { "main_building": 0, "fire_stations": 1 },
+    "overlay_index": null,
+    "base_mission_id": 935,
+    "additive_overlays": ""
+  },
+  {
+    "id": "936",
+    "name": "Bliksem treft konijnenhol",
+    "place": "",
+    "place_array": [],
+    "average_credits": 1600,
+    "generated_by": "Brandweer, Kazerne",
+    "icons": [
+      "/images/blast_gruen.png",
+      "/images/blast_gelb.png",
+      "/images/blast_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "platform_trucks": 70, "nef": 35, "patient_transport": 60 },
+    "additional": {
+      "possible_patient": 1,
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00",
+      "patient_specializations": "Interne Geneeskunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 3,
+      "fire_stations": 4
+    },
+    "overlay_index": null,
+    "base_mission_id": 936,
+    "additive_overlays": ""
+  },
+  {
+    "id": "937",
+    "name": "Chocolade haas opgesloten in auto",
+    "place": "",
+    "place_array": [],
+    "average_credits": 250,
+    "generated_by": "Brandweer, Kazerne",
+    "icons": [
+      "/images/fire_gruen.png",
+      "/images/fire_gelb.png",
+      "/images/fire_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1 },
+    "chances": {},
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 937,
+    "additive_overlays": ""
+  },
+  {
+    "id": "938",
+    "name": "Paaseieren zoeken onder water",
+    "place": "Meer",
+    "place_array": ["Meer"],
+    "average_credits": 1670,
+    "generated_by": "Waterongevallen",
+    "icons": [
+      "/images/waterpark_gruen.png",
+      "/images/waterpark_gelb.png",
+      "/images/waterpark_rot.png"
+    ],
+    "requirements": { "firetrucks": 1, "police_cars": 1, "diver_units": 2 },
+    "chances": {},
+    "additional": {
+      "filter_id": "water_watch_missions",
+      "date_start": "2022-04-11T09:00:00Z",
+      "date_end": "2022-04-18T23:59:59+02:00"
+    },
+    "prerequisites": {
+      "main_building": -3,
+      "wasserrettung": 2,
+      "police_stations": 1,
+      "fire_stations": 1
+    },
+    "overlay_index": null,
+    "base_mission_id": 938,
+    "additive_overlays": ""
   }
 ]
