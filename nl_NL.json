@@ -25337,6 +25337,7 @@
       "possible_patient": 6,
       "possible_patient_min": 1,
       "filter_id": "water_watch_missions",
+      "patient_at_end_of_mission": true,
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
@@ -25366,6 +25367,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "patient_at_end_of_mission": true,
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
@@ -25399,6 +25401,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "patient_at_end_of_mission": true,
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
@@ -25434,6 +25437,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "patient_at_end_of_mission": true,
       "patient_specializations": "Interne Geneeskunde"
     },
     "prerequisites": {
@@ -25488,6 +25492,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "patient_at_end_of_mission": true,
       "patient_specializations": "Algemene Heelkunde"
     },
     "prerequisites": {
@@ -29205,7 +29210,7 @@
   },
   {
     "id": "901",
-    "name": "Trein ontspoort",
+    "name": "Trein ontspoord",
     "place": "Spoorwegovergang\nStation\nCentraal Station\nRangeeremplacement",
     "place_array": [
       "Spoorwegovergang",
@@ -29247,7 +29252,7 @@
   },
   {
     "id": "901-0",
-    "name": "Trein ontspoort",
+    "name": "Trein ontspoord",
     "place": "Spoorwegovergang\nStation\nCentraal Station\nRangeeremplacement",
     "place_array": [
       "Spoorwegovergang",
@@ -29295,7 +29300,7 @@
   },
   {
     "id": "901-1",
-    "name": "Trein ontspoort",
+    "name": "Trein ontspoord",
     "place": "Spoorwegovergang\nStation\nCentraal Station\nRangeeremplacement",
     "place_array": [
       "Spoorwegovergang",
@@ -29353,7 +29358,7 @@
   },
   {
     "id": "901-2",
-    "name": "Trein ontspoort",
+    "name": "Trein ontspoord",
     "place": "Spoorwegovergang\nStation\nCentraal Station\nRangeeremplacement",
     "place_array": [
       "Spoorwegovergang",
@@ -29619,6 +29624,7 @@
       "possible_patient": 6,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "patient_at_end_of_mission": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z",
       "patient_specializations": "Interne Geneeskunde"
@@ -29650,6 +29656,7 @@
       "possible_patient": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "patient_at_end_of_mission": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z",
       "patient_specializations": "Interne Geneeskunde"
@@ -29681,6 +29688,7 @@
       "possible_patient": 2,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
+      "patient_at_end_of_mission": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z",
       "patient_specializations": "Interne Geneeskunde"
@@ -31107,6 +31115,102 @@
     "prerequisites": { "main_building": 5, "police_stations": 2 },
     "overlay_index": null,
     "base_mission_id": 944,
+    "additive_overlays": ""
+  },
+  {
+    "id": "945",
+    "name": "Gevel dreigt in te storten",
+    "place": "Boerderij\nBouwmarkt\nGaragebedrijf\nHotel\nMuseum\nMagazijn\nSporthal",
+    "place_array": [
+      "Boerderij",
+      "Bouwmarkt",
+      "Garagebedrijf",
+      "Hotel",
+      "Museum",
+      "Magazijn",
+      "Sporthal"
+    ],
+    "average_credits": 3110,
+    "generated_by": "Brandweer, Kazerne",
+    "icons": [
+      "/images/constructioncrane_gruen.png",
+      "/images/constructioncrane_gelb.png",
+      "/images/constructioncrane_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 2,
+      "battalion_chief_vehicles": 1,
+      "heavy_rescue_vehicles": 1,
+      "police_cars": 2
+    },
+    "chances": { "nef": 15, "patient_transport": 75 },
+    "additional": {
+      "possible_patient": 3,
+      "possible_patient_min": 1,
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 2,
+      "fire_stations": 6
+    },
+    "overlay_index": null,
+    "base_mission_id": 945,
+    "additive_overlays": ""
+  },
+  {
+    "id": "945-0",
+    "name": "Gevel dreigt in te storten",
+    "place": "Boerderij\nBouwmarkt\nGaragebedrijf\nHotel\nMuseum\nMagazijn\nSporthal",
+    "place_array": [
+      "Boerderij",
+      "Bouwmarkt",
+      "Garagebedrijf",
+      "Hotel",
+      "Museum",
+      "Magazijn",
+      "Sporthal"
+    ],
+    "average_credits": 10205,
+    "generated_by": "Brandweer, Kazerne",
+    "icons": [
+      "/images/constructioncrane_gruen.png",
+      "/images/constructioncrane_gelb.png",
+      "/images/constructioncrane_rot.png"
+    ],
+    "requirements": {
+      "firetrucks": 4,
+      "spokesman": 1,
+      "battalion_chief_vehicles": 2,
+      "mobile_command_vehicles": 1,
+      "elw3": 1,
+      "platform_trucks": 1,
+      "heavy_rescue_vehicles": 1,
+      "gwmess": 3,
+      "hazmat_vehicles": 1,
+      "police_cars": 4,
+      "ovdp": 1,
+      "bike_police": 1
+    },
+    "chances": { "nef": 15, "patient_transport": 75 },
+    "additional": {
+      "possible_patient": 10,
+      "possible_patient_min": 4,
+      "allow_rw_instead_of_lf": true,
+      "filter_id": "firehouse_missions",
+      "patient_specializations": "Algemene Heelkunde"
+    },
+    "prerequisites": {
+      "main_building": 0,
+      "rescue_stations": 10,
+      "police_stations": 7,
+      "fire_stations": 16
+    },
+    "overlay_index": 0,
+    "base_mission_id": 945,
     "additive_overlays": ""
   }
 ]
