@@ -20,6 +20,11 @@ jobs:
         curl -X GET https://www.leitstellenspiel.de/einsaetze.json > de_DE.json
         curl -X GET https://www.meldkamerspel.com/alliance_event_types.json > events/nl_NL.json 
         
+    - name: json-syntax-check
+      uses: limitusus/json-syntax-check@v1
+      with:
+        pattern: "\\.json$"
+        
     - name: Prettify code
       uses: creyD/prettier_action@v3.3
       with:
