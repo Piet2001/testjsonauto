@@ -19,6 +19,9 @@ jobs:
       id: date
       run: |
         echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
+        
+    - name: Test with environment variables
+      run: echo ${{ env.date }}
           
     - name: Create local changes
       run: |
