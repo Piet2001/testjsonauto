@@ -18,12 +18,10 @@ jobs:
     - name: Get current date
       id: date
       run: |
-        echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_STATE
+        echo "{date}={$(date +'%Y-%m-%d')}" >> $GITHUB_OUTPUT
         
     - name: Test with environment variables
-      run: echo $TIMESTAMP
-      env:
-        TIMESTAMP: ${{ env.date }}
+      run: echo "${{ steps.date.outputs.SELECTED_COLOR }}"
           
     - name: Create local changes
       run: |
@@ -41,6 +39,6 @@ jobs:
       with:
         # This part is also where you can pass other options, for example:
         prettier_options: --write **/*.{js,md,json}
-        commit_message: Update files ${{ env.date }}
+        commit_message: "Update files ${{ steps.date.outputs.SELECTED_COLOR }}"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}    
