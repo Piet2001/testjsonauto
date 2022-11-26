@@ -1846,7 +1846,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 62,
@@ -1867,7 +1870,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 63,
@@ -2047,7 +2053,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 71,
@@ -2077,6 +2086,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0, 5, 7],
       "patient_specialization_captions": [
@@ -2201,7 +2211,8 @@
     "additional": {
       "only_alliance_mission": true,
       "filter_id": "police_station_missions",
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 2
     },
     "prerequisites": { "main_building": 6 },
     "overlay_index": null,
@@ -2226,7 +2237,8 @@
     "additional": {
       "only_alliance_mission": true,
       "filter_id": "police_station_missions",
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 2
     },
     "prerequisites": { "main_building": 6, "police_service_group_leader": 5 },
     "overlay_index": null,
@@ -2279,6 +2291,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0, 1, 4, 5, 7],
       "patient_specialization_captions": [
@@ -2384,6 +2397,7 @@
       "possible_patient": 8,
       "expansion_missions_ids": [470, 685],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -2416,6 +2430,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": 1,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -2482,6 +2497,7 @@
       "possible_patient": 1,
       "expansion_missions_ids": [213, 610],
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -2531,6 +2547,7 @@
       "possible_patient": 1,
       "expansion_missions_ids": [213, 610],
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -3063,7 +3080,8 @@
     "chances": {},
     "additional": {
       "followup_missions_ids": [124, 97, 394],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -3194,6 +3212,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -3239,6 +3258,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -3263,7 +3283,10 @@
     ],
     "requirements": { "firetrucks": 1, "police_cars": 1 },
     "chances": { "police_cars": 50 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 8,
@@ -3335,6 +3358,7 @@
       "possible_patient": 3,
       "expansion_missions_ids": [701],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -3413,7 +3437,8 @@
     "chances": { "battalion_chief_vehicles": 70, "platform_trucks": 50 },
     "additional": {
       "expansion_missions_ids": [701],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -4017,6 +4042,7 @@
       "expansion_missions_ids": [550],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [650],
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -4058,6 +4084,7 @@
       "expansion_missions_ids": [550],
       "filter_id": "firehouse_missions",
       "subsequent_missions_ids": [650],
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -4090,6 +4117,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -4122,6 +4150,7 @@
       "possible_patient": 1,
       "expansion_missions_ids": [557],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -4339,6 +4368,7 @@
       "possible_patient": 1,
       "expansion_missions_ids": [25, 123, 124, 125, 126, 127, 89],
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -4492,7 +4522,8 @@
     "chances": {},
     "additional": {
       "average_min_fire_personnel": 40,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -4565,6 +4596,7 @@
       "expansion_missions_ids": [136, 137],
       "average_min_fire_personnel": 27,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "need_helicopter_bucket_only_if_present": true
     },
     "prerequisites": {
@@ -4609,6 +4641,7 @@
       "possible_patient": 1,
       "average_min_fire_personnel": 90,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "need_helicopter_bucket_only_if_present": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -4656,6 +4689,7 @@
       "possible_patient": 1,
       "average_min_fire_personnel": 90,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "need_helicopter_bucket_only_if_present": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -4704,6 +4738,7 @@
       "possible_patient": 1,
       "average_min_fire_personnel": 90,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "need_helicopter_bucket_only_if_present": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -4797,7 +4832,8 @@
     "chances": {},
     "additional": {
       "average_min_fire_personnel": 9,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -4831,7 +4867,8 @@
     "chances": { "battalion_chief_vehicles": 20, "water_tankers": 20 },
     "additional": {
       "average_min_fire_personnel": 27,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -4961,6 +4998,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -5005,6 +5043,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -5064,7 +5103,8 @@
     "additional": {
       "expansion_missions_ids": [128, 668],
       "followup_missions_ids": [27, 43, 83],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -5086,7 +5126,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 149,
@@ -5470,6 +5513,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -5587,7 +5631,10 @@
       "police_cars": 1
     },
     "chances": { "platform_trucks": 40, "height_rescue_units": 40 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 2,
@@ -5618,7 +5665,10 @@
       "police_cars": 1
     },
     "chances": { "platform_trucks": 50, "height_rescue_units": 20 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 2,
@@ -5645,7 +5695,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [237],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -5673,7 +5724,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [237],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -5701,7 +5753,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [237],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -5737,6 +5790,7 @@
     "additional": {
       "expansion_missions_ids": [655],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "pump_water_amount": 40000
     },
     "prerequisites": {
@@ -5799,6 +5853,7 @@
     "additional": {
       "expansion_missions_ids": [657, 658],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "pump_water_amount": 50000
     },
     "prerequisites": {
@@ -5833,7 +5888,8 @@
     "chances": {},
     "additional": {
       "followup_missions_ids": [177, 464, 513, 162],
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 9,
@@ -5871,7 +5927,8 @@
     "chances": {},
     "additional": {
       "followup_missions_ids": [177, 464, 513, 162],
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 9,
@@ -5989,6 +6046,7 @@
       "possible_patient": 7,
       "followup_missions_ids": [429, 539],
       "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -6039,6 +6097,7 @@
       "possible_patient": 7,
       "followup_missions_ids": [429, 539],
       "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -6422,6 +6481,7 @@
       "possible_patient_min": 1,
       "expansion_missions_ids": [462],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -6478,6 +6538,7 @@
       "possible_patient_min": 1,
       "expansion_missions_ids": [462],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -6574,7 +6635,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [73],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -6598,6 +6660,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -6674,7 +6737,10 @@
       "police_cars": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 5,
@@ -7174,6 +7240,7 @@
       "expansion_missions_ids": [206],
       "average_min_fire_personnel": 60,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -7225,6 +7292,7 @@
       "expansion_missions_ids": [206],
       "average_min_fire_personnel": 60,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -7279,6 +7347,7 @@
       "possible_patient_min": 2,
       "average_min_fire_personnel": 105,
       "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -7337,6 +7406,7 @@
       "possible_patient_min": 2,
       "average_min_fire_personnel": 105,
       "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -7391,6 +7461,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -7441,6 +7512,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -7493,6 +7565,7 @@
       "possible_patient_min": 0,
       "expansion_missions_ids": [213],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -7545,6 +7618,7 @@
       "possible_patient_min": 0,
       "expansion_missions_ids": [213],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -7577,6 +7651,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -7723,6 +7798,7 @@
       "possible_patient_min": 0,
       "followup_missions_ids": [177, 513, 166],
       "filter_id": "technical_aid_organization_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -7786,6 +7862,7 @@
       "possible_patient_min": 0,
       "followup_missions_ids": [177, 513, 166],
       "filter_id": "technical_aid_organization_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -7838,6 +7915,7 @@
       "possible_patient": 10,
       "possible_patient_min": 5,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -7880,6 +7958,7 @@
       "possible_patient": 12,
       "possible_patient_min": 5,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -7922,6 +8001,7 @@
       "possible_patient": 12,
       "possible_patient_min": 5,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -8098,6 +8178,7 @@
       "possible_patient_min": 20,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -8150,6 +8231,7 @@
       "possible_patient_min": 20,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -8200,6 +8282,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 3,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -8248,6 +8331,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 3,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -8282,7 +8366,8 @@
       "duration": 7200,
       "average_min_fire_personnel": 25,
       "guard_mission": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -8393,7 +8478,7 @@
     "name": "Angemeldete Demonstration",
     "place": "",
     "place_array": [],
-    "average_credits": 5000,
+    "average_credits": 5570,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -8403,9 +8488,10 @@
     "requirements": {
       "ambulances": 1,
       "lebefkw": 2,
-      "police_cars": 3,
+      "police_cars": 5,
       "grukw": 6,
-      "fukw": 1
+      "fukw": 1,
+      "police_motorcycle": 2
     },
     "chances": {},
     "additional": {
@@ -8417,14 +8503,16 @@
       "filter_id": "riot_police_missions",
       "allow_ktw_instead_of_rtw": true,
       "max_civil_patrol_replacing_police_cars": 1,
-      "allow_ktw_b_instead_of_rtw": true
+      "allow_ktw_b_instead_of_rtw": true,
+      "max_police_motorcycle_replacing_police_cars": 4
     },
     "prerequisites": {
       "main_building": 11,
       "rescue_stations": 1,
       "police_stations": 3,
       "bereitschaftspolizei": 1,
-      "riot_unit_count": 3
+      "riot_unit_count": 3,
+      "police_motorcycle": 1
     },
     "overlay_index": null,
     "base_mission_id": 227,
@@ -8436,7 +8524,7 @@
     "name": "Angemeldete Demonstration",
     "place": "",
     "place_array": [],
-    "average_credits": 5400,
+    "average_credits": 5970,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -8446,10 +8534,11 @@
     "requirements": {
       "ambulances": 1,
       "lebefkw": 2,
-      "police_cars": 3,
+      "police_cars": 5,
       "grukw": 6,
       "fukw": 1,
-      "police_service_group_leader": 1
+      "police_service_group_leader": 1,
+      "police_motorcycle": 2
     },
     "chances": {},
     "additional": {
@@ -8461,7 +8550,8 @@
       "filter_id": "riot_police_missions",
       "allow_ktw_instead_of_rtw": true,
       "max_civil_patrol_replacing_police_cars": 1,
-      "allow_ktw_b_instead_of_rtw": true
+      "allow_ktw_b_instead_of_rtw": true,
+      "max_police_motorcycle_replacing_police_cars": 4
     },
     "prerequisites": {
       "main_building": 11,
@@ -8469,7 +8559,8 @@
       "police_stations": 7,
       "bereitschaftspolizei": 1,
       "riot_unit_count": 3,
-      "police_service_group_leader": 5
+      "police_service_group_leader": 5,
+      "police_motorcycle": 1
     },
     "overlay_index": null,
     "base_mission_id": 227,
@@ -8481,22 +8572,27 @@
     "name": "Absicherung Musikumzug",
     "place": "",
     "place_array": [],
-    "average_credits": 2000,
+    "average_credits": 2570,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "police_cars": 2 },
+    "requirements": { "police_cars": 4, "police_motorcycle": 2 },
     "chances": {},
     "additional": {
       "duration_text": "1 Stunde",
       "duration": 3600,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
-    "prerequisites": { "main_building": 6, "police_stations": 2 },
+    "prerequisites": {
+      "main_building": 6,
+      "police_stations": 2,
+      "police_motorcycle": 1
+    },
     "overlay_index": null,
     "base_mission_id": 228,
     "additive_overlays": "",
@@ -8507,14 +8603,18 @@
     "name": "Absicherung Radrennen",
     "place": "",
     "place_array": [],
-    "average_credits": 4000,
+    "average_credits": 4570,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
       "/images/clock_gelb.png",
       "/images/clock_rot.png"
     ],
-    "requirements": { "ambulances": 2, "police_cars": 2 },
+    "requirements": {
+      "ambulances": 2,
+      "police_cars": 4,
+      "police_motorcycle": 2
+    },
     "chances": {},
     "additional": {
       "duration_text": "2 Stunden",
@@ -8522,12 +8622,14 @@
       "guard_mission": true,
       "filter_id": "rapid_deployment_group_missions",
       "allow_ktw_instead_of_rtw": true,
+      "allow_police_motorcycle_instead_of_fustw": true,
       "allow_ktw_b_instead_of_rtw": true
     },
     "prerequisites": {
       "main_building": 12,
       "rescue_stations": 2,
-      "police_stations": 2
+      "police_stations": 2,
+      "police_motorcycle": 1
     },
     "overlay_index": null,
     "base_mission_id": 229,
@@ -8578,7 +8680,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "need_k9_only_if_guard_dogs_present": true,
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 4
     },
     "prerequisites": {
       "main_building": 6,
@@ -8613,7 +8716,8 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "need_k9_only_if_guard_dogs_present": true,
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 4
     },
     "prerequisites": {
       "main_building": 6,
@@ -8790,7 +8894,8 @@
       "duration_text": "2 Stunden",
       "duration": 7200,
       "guard_mission": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -8826,7 +8931,8 @@
       "duration_text": "2 Stunden",
       "duration": 7200,
       "guard_mission": true,
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -8863,6 +8969,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -8908,6 +9015,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -8947,6 +9055,7 @@
       "possible_patient": 5,
       "followup_missions_ids": [731],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -8986,6 +9095,7 @@
       "possible_patient": 5,
       "followup_missions_ids": [731],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -9195,6 +9305,7 @@
       "possible_patient": 1,
       "expansion_missions_ids": [213, 740],
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -9224,7 +9335,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 241,
@@ -9448,6 +9562,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -9489,6 +9604,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -9530,6 +9646,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -9570,6 +9687,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -9782,6 +9900,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -9823,6 +9942,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -9864,6 +9984,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -9904,6 +10025,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "water_watch_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -10026,6 +10148,7 @@
       "possible_patient": 30,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -10062,6 +10185,7 @@
       "possible_patient": 30,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -10090,7 +10214,8 @@
       "duration_text": "1 Stunde",
       "duration": 3600,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -10123,6 +10248,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -10163,6 +10289,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -10610,7 +10737,10 @@
       "hazmat_dekon": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 3,
@@ -10649,7 +10779,10 @@
       "police_service_group_leader": 1
     },
     "chances": {},
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 7,
@@ -10686,6 +10819,7 @@
     "additional": {
       "followup_missions_ids": [528],
       "filter_id": "water_watch_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -10722,6 +10856,7 @@
     "additional": {
       "followup_missions_ids": [528],
       "filter_id": "water_watch_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -10773,7 +10908,7 @@
     "name": "Absicherung Rockkonzert",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 7000,
+    "average_credits": 8140,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -10784,9 +10919,10 @@
       "firetrucks": 2,
       "ambulances": 4,
       "lebefkw": 3,
-      "police_cars": 4,
+      "police_cars": 8,
       "grukw": 9,
-      "fukw": 1
+      "fukw": 1,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -10795,7 +10931,7 @@
       "guard_mission": true,
       "filter_id": "riot_police_missions",
       "allow_ktw_instead_of_rtw": true,
-      "max_civil_patrol_replacing_police_cars": 2,
+      "allow_police_motorcycle_instead_of_fustw": true,
       "allow_ktw_b_instead_of_rtw": true
     },
     "prerequisites": {
@@ -10804,6 +10940,7 @@
       "police_stations": 7,
       "bereitschaftspolizei": 2,
       "riot_unit_count": 5,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -10816,7 +10953,7 @@
     "name": "Absicherung Rockkonzert",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 7400,
+    "average_credits": 8540,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -10827,10 +10964,11 @@
       "firetrucks": 2,
       "ambulances": 4,
       "lebefkw": 3,
-      "police_cars": 4,
+      "police_cars": 8,
       "grukw": 9,
       "fukw": 1,
-      "police_service_group_leader": 1
+      "police_service_group_leader": 1,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -10839,7 +10977,7 @@
       "guard_mission": true,
       "filter_id": "riot_police_missions",
       "allow_ktw_instead_of_rtw": true,
-      "max_civil_patrol_replacing_police_cars": 2,
+      "allow_police_motorcycle_instead_of_fustw": true,
       "allow_ktw_b_instead_of_rtw": true
     },
     "prerequisites": {
@@ -10849,6 +10987,7 @@
       "bereitschaftspolizei": 2,
       "riot_unit_count": 5,
       "police_service_group_leader": 5,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -10874,7 +11013,8 @@
       "duration_text": "1 Stunde",
       "duration": 3600,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -11685,7 +11825,7 @@
     "name": "Fußball Bundesliga-Risikospiel",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 12000,
+    "average_credits": 13140,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -11697,10 +11837,11 @@
       "ambulances": 4,
       "lebefkw": 9,
       "gefkw": 2,
-      "police_cars": 5,
+      "police_cars": 9,
       "grukw": 27,
       "fukw": 3,
-      "k9": 2
+      "k9": 2,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -11711,7 +11852,8 @@
       "guard_mission": true,
       "filter_id": "riot_police_missions",
       "need_k9_only_if_guard_dogs_present": true,
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 6
     },
     "prerequisites": {
       "main_building": 11,
@@ -11720,6 +11862,7 @@
       "bereitschaftspolizei": 4,
       "riot_unit_count": 12,
       "detention_unit_count": 3,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -11732,7 +11875,7 @@
     "name": "Fußball Bundesliga-Risikospiel",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 12400,
+    "average_credits": 13540,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -11744,11 +11887,12 @@
       "ambulances": 4,
       "lebefkw": 9,
       "gefkw": 2,
-      "police_cars": 5,
+      "police_cars": 9,
       "grukw": 27,
       "fukw": 3,
       "k9": 2,
-      "police_service_group_leader": 1
+      "police_service_group_leader": 1,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -11759,7 +11903,8 @@
       "guard_mission": true,
       "filter_id": "riot_police_missions",
       "need_k9_only_if_guard_dogs_present": true,
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 6
     },
     "prerequisites": {
       "main_building": 11,
@@ -11769,6 +11914,7 @@
       "riot_unit_count": 12,
       "detention_unit_count": 3,
       "police_service_group_leader": 5,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -12005,6 +12151,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
@@ -12039,7 +12186,8 @@
       "expansion_missions_ids": [
         25, 27, 120, 121, 122, 123, 124, 125, 126, 127, 128
       ],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -12178,7 +12326,7 @@
     "name": "Angemeldete Demonstration - Gefahrenpotential",
     "place": "",
     "place_array": [],
-    "average_credits": 6500,
+    "average_credits": 7640,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -12189,11 +12337,12 @@
       "firetrucks": 1,
       "ambulances": 3,
       "lebefkw": 3,
-      "police_cars": 6,
+      "police_cars": 10,
       "grukw": 6,
       "fukw": 1,
       "k9": 2,
-      "wasserwerfer": 3
+      "wasserwerfer": 3,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -12205,7 +12354,8 @@
       "allow_ktw_instead_of_rtw": true,
       "need_k9_only_if_guard_dogs_present": true,
       "max_civil_patrol_replacing_police_cars": 2,
-      "allow_ktw_b_instead_of_rtw": true
+      "allow_ktw_b_instead_of_rtw": true,
+      "max_police_motorcycle_replacing_police_cars": 8
     },
     "prerequisites": {
       "main_building": 11,
@@ -12214,6 +12364,7 @@
       "bereitschaftspolizei": 3,
       "riot_unit_count": 3,
       "water_cannon": 1,
+      "police_motorcycle": 2,
       "fire_stations": 1
     },
     "overlay_index": null,
@@ -12226,7 +12377,7 @@
     "name": "Angemeldete Demonstration - Gefahrenpotential",
     "place": "",
     "place_array": [],
-    "average_credits": 6900,
+    "average_credits": 8040,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -12237,12 +12388,13 @@
       "firetrucks": 1,
       "ambulances": 3,
       "lebefkw": 3,
-      "police_cars": 6,
+      "police_cars": 10,
       "grukw": 6,
       "fukw": 1,
       "k9": 2,
       "wasserwerfer": 3,
-      "police_service_group_leader": 1
+      "police_service_group_leader": 1,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -12254,7 +12406,8 @@
       "allow_ktw_instead_of_rtw": true,
       "need_k9_only_if_guard_dogs_present": true,
       "max_civil_patrol_replacing_police_cars": 2,
-      "allow_ktw_b_instead_of_rtw": true
+      "allow_ktw_b_instead_of_rtw": true,
+      "max_police_motorcycle_replacing_police_cars": 8
     },
     "prerequisites": {
       "main_building": 11,
@@ -12264,6 +12417,7 @@
       "riot_unit_count": 3,
       "police_service_group_leader": 5,
       "water_cannon": 1,
+      "police_motorcycle": 2,
       "fire_stations": 1
     },
     "overlay_index": null,
@@ -12276,7 +12430,7 @@
     "name": "Fußball Bundesliga-Risikospiel",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 13000,
+    "average_credits": 14040,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -12288,11 +12442,12 @@
       "ambulances": 4,
       "lebefkw": 10,
       "gefkw": 2,
-      "police_cars": 5,
+      "police_cars": 11,
       "grukw": 27,
       "fukw": 3,
       "k9": 2,
-      "wasserwerfer": 3
+      "wasserwerfer": 3,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -12303,7 +12458,8 @@
       "guard_mission": true,
       "filter_id": "riot_police_missions",
       "need_k9_only_if_guard_dogs_present": true,
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 6
     },
     "prerequisites": {
       "main_building": 11,
@@ -12313,6 +12469,7 @@
       "riot_unit_count": 12,
       "detention_unit_count": 3,
       "water_cannon": 1,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -12325,7 +12482,7 @@
     "name": "Fußball Bundesliga-Risikospiel",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 13400,
+    "average_credits": 14440,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -12337,12 +12494,13 @@
       "ambulances": 4,
       "lebefkw": 10,
       "gefkw": 2,
-      "police_cars": 5,
+      "police_cars": 11,
       "grukw": 27,
       "fukw": 3,
       "k9": 2,
       "wasserwerfer": 3,
-      "police_service_group_leader": 1
+      "police_service_group_leader": 1,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -12353,7 +12511,8 @@
       "guard_mission": true,
       "filter_id": "riot_police_missions",
       "need_k9_only_if_guard_dogs_present": true,
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 6
     },
     "prerequisites": {
       "main_building": 11,
@@ -12364,6 +12523,7 @@
       "detention_unit_count": 3,
       "police_service_group_leader": 5,
       "water_cannon": 1,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -12376,7 +12536,7 @@
     "name": "Absicherung Rockkonzert - Gefahrenpotential",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 8000,
+    "average_credits": 8570,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -12387,10 +12547,11 @@
       "firetrucks": 2,
       "ambulances": 4,
       "lebefkw": 4,
-      "police_cars": 8,
+      "police_cars": 16,
       "grukw": 9,
       "fukw": 1,
-      "wasserwerfer": 2
+      "wasserwerfer": 2,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -12400,7 +12561,8 @@
       "filter_id": "riot_police_missions",
       "allow_ktw_instead_of_rtw": true,
       "max_civil_patrol_replacing_police_cars": 3,
-      "allow_ktw_b_instead_of_rtw": true
+      "allow_ktw_b_instead_of_rtw": true,
+      "max_police_motorcycle_replacing_police_cars": 8
     },
     "prerequisites": {
       "main_building": 11,
@@ -12409,6 +12571,7 @@
       "bereitschaftspolizei": 2,
       "riot_unit_count": 4,
       "water_cannon": 1,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -12421,7 +12584,7 @@
     "name": "Absicherung Rockkonzert - Gefahrenpotential",
     "place": "Stadion",
     "place_array": ["Stadion"],
-    "average_credits": 8800,
+    "average_credits": 9370,
     "generated_by": "",
     "icons": [
       "/images/clock_gruen.png",
@@ -12432,11 +12595,12 @@
       "firetrucks": 2,
       "ambulances": 4,
       "lebefkw": 4,
-      "police_cars": 8,
+      "police_cars": 16,
       "grukw": 9,
       "fukw": 1,
       "wasserwerfer": 2,
-      "police_service_group_leader": 2
+      "police_service_group_leader": 2,
+      "police_motorcycle": 4
     },
     "chances": {},
     "additional": {
@@ -12446,7 +12610,8 @@
       "filter_id": "riot_police_missions",
       "allow_ktw_instead_of_rtw": true,
       "max_civil_patrol_replacing_police_cars": 3,
-      "allow_ktw_b_instead_of_rtw": true
+      "allow_ktw_b_instead_of_rtw": true,
+      "max_police_motorcycle_replacing_police_cars": 8
     },
     "prerequisites": {
       "main_building": 11,
@@ -12456,6 +12621,7 @@
       "riot_unit_count": 4,
       "police_service_group_leader": 10,
       "water_cannon": 1,
+      "police_motorcycle": 2,
       "fire_stations": 2
     },
     "overlay_index": null,
@@ -13208,7 +13374,8 @@
       "duration_text": "1 Stunde",
       "duration": 3600,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -13238,7 +13405,8 @@
     "chances": { "heavy_rescue_vehicles": 50 },
     "additional": {
       "expansion_missions_ids": [105, 104, 103, 102, 701],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -13285,6 +13453,7 @@
       "possible_patient": 10,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -13341,6 +13510,7 @@
       "possible_patient": 10,
       "filter_id": "firehouse_missions",
       "fire_alarm_system_possible": true,
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -13389,7 +13559,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "riot_police_missions",
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 5
     },
     "prerequisites": {
       "main_building": 11,
@@ -13433,7 +13604,8 @@
       "duration": 7200,
       "guard_mission": true,
       "filter_id": "riot_police_missions",
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 5
     },
     "prerequisites": {
       "main_building": 11,
@@ -13505,6 +13677,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "fire_alarm_system_possible": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -14122,6 +14295,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -14167,7 +14341,8 @@
       "duration_text": "2 Stunden",
       "duration": 7200,
       "guard_mission": true,
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 9,
@@ -14216,7 +14391,8 @@
       "duration_text": "2 Stunden",
       "duration": 7200,
       "guard_mission": true,
-      "filter_id": "technical_aid_organization_missions"
+      "filter_id": "technical_aid_organization_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 9,
@@ -14365,6 +14541,7 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
@@ -14420,6 +14597,7 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
@@ -14505,6 +14683,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -14558,6 +14737,7 @@
       "possible_patient_min": 10,
       "only_alliance_mission": true,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -14684,6 +14864,7 @@
     "additional": {
       "possible_patient": 10,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -14727,6 +14908,7 @@
     "additional": {
       "possible_patient": 10,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -14989,6 +15171,7 @@
     "additional": {
       "expansion_missions_ids": [358],
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
@@ -15014,6 +15197,7 @@
     "additional": {
       "expansion_missions_ids": [358],
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -15050,6 +15234,7 @@
       "max_possible_prisoners": 5,
       "filter_id": "police_station_missions",
       "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allgemeine Chirurgie"],
@@ -15092,6 +15277,7 @@
       "max_possible_prisoners": 5,
       "filter_id": "police_station_missions",
       "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 4,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allgemeine Chirurgie"],
@@ -15135,7 +15321,8 @@
     "additional": {
       "max_possible_prisoners": 5,
       "filter_id": "riot_police_missions",
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 2
     },
     "prerequisites": {
       "main_building": 11,
@@ -15177,7 +15364,8 @@
     "additional": {
       "max_possible_prisoners": 5,
       "filter_id": "riot_police_missions",
-      "max_civil_patrol_replacing_police_cars": 2
+      "max_civil_patrol_replacing_police_cars": 2,
+      "max_police_motorcycle_replacing_police_cars": 2
     },
     "prerequisites": {
       "main_building": 11,
@@ -15267,6 +15455,7 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "max_civil_patrol_replacing_police_cars": 1,
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -15307,6 +15496,7 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "max_civil_patrol_replacing_police_cars": 1,
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -15356,6 +15546,7 @@
     "additional": {
       "possible_patient": 5,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -15410,6 +15601,7 @@
     "additional": {
       "possible_patient": 5,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -15462,6 +15654,7 @@
     "additional": {
       "possible_patient": 2,
       "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -15493,7 +15686,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [83, 89, 125, 126, 127],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "max_police_motorcycle_replacing_police_cars": 2
     },
     "prerequisites": { "main_building": 6, "police_stations": 4 },
     "overlay_index": null,
@@ -15517,7 +15711,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [83, 89, 125, 126, 127],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "max_police_motorcycle_replacing_police_cars": 2
     },
     "prerequisites": {
       "main_building": 6,
@@ -15772,7 +15967,10 @@
       "police_cars": 1
     },
     "chances": { "fwk": 20 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
@@ -15803,7 +16001,10 @@
       "police_cars": 1
     },
     "chances": { "fwk": 20 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
@@ -15834,7 +16035,10 @@
       "police_cars": 1
     },
     "chances": { "fwk": 20 },
-    "additional": { "filter_id": "firehouse_missions" },
+    "additional": {
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": {
       "main_building": 0,
       "police_stations": 1,
@@ -15867,7 +16071,8 @@
     "chances": { "fwk": 20 },
     "additional": {
       "expansion_missions_ids": [237],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -15897,6 +16102,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -16153,6 +16359,7 @@
       "possible_patient": 3,
       "filter_id": "factory_fire_brigade_missions",
       "fire_alarm_system_possible": true,
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -16212,6 +16419,7 @@
       "possible_patient": 3,
       "filter_id": "factory_fire_brigade_missions",
       "fire_alarm_system_possible": true,
+      "max_police_motorcycle_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -16352,7 +16560,8 @@
     "chances": { "fwk": 25 },
     "additional": {
       "expansion_missions_ids": [447],
-      "filter_id": "firehouse_missions"
+      "filter_id": "firehouse_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 0,
@@ -16396,6 +16605,7 @@
       "possible_patient": 4,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -16442,6 +16652,7 @@
       "possible_patient": 4,
       "possible_patient_min": 1,
       "filter_id": "firehouse_missions",
+      "max_police_motorcycle_replacing_police_cars": 2,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
