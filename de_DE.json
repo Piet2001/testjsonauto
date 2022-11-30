@@ -1536,149 +1536,6 @@
     "mission_categories": ["fire"]
   },
   {
-    "id": "52",
-    "name": "Brand auf Weihnachtsmarkt",
-    "place": "Weihnachtsmarkt",
-    "place_array": ["Weihnachtsmarkt"],
-    "average_credits": 310,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": { "firetrucks": 1 },
-    "chances": { "nef": 10, "patient_transport": 30 },
-    "additional": {
-      "possible_patient": 1,
-      "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 1 },
-    "overlay_index": null,
-    "base_mission_id": 52,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "53",
-    "name": "Verkehrsunfall durch Glatteis",
-    "place": "",
-    "place_array": [],
-    "average_credits": 1410,
-    "generated_by": "",
-    "icons": [
-      "/images/caraccident_gruen.png",
-      "/images/caraccident_gelb.png",
-      "/images/caraccident_rot.png"
-    ],
-    "requirements": { "firetrucks": 1, "heavy_rescue_vehicles": 1 },
-    "chances": { "patient_transport": 30 },
-    "additional": {
-      "possible_patient": 3,
-      "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [4],
-      "patient_specialization_captions": ["Unfallchirurgie"],
-      "patient_specializations": "Unfallchirurgie"
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 4 },
-    "overlay_index": null,
-    "base_mission_id": 53,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "54",
-    "name": "Personenschaden durch Verbrennung",
-    "place": "Weihnachtsmarkt",
-    "place_array": ["Weihnachtsmarkt"],
-    "average_credits": null,
-    "generated_by": "",
-    "icons": [
-      "/images/medicalstore_gruen.png",
-      "/images/medicalstore_gelb.png",
-      "/images/medicalstore_rot.png"
-    ],
-    "requirements": {},
-    "chances": { "nef": 40, "patient_transport": 20 },
-    "additional": {
-      "possible_patient": 1,
-      "possible_patient_min": 1,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [4],
-      "patient_specialization_captions": ["Unfallchirurgie"],
-      "patient_specializations": "Unfallchirurgie"
-    },
-    "prerequisites": { "main_building": 2, "rescue_stations": 3 },
-    "overlay_index": null,
-    "base_mission_id": 54,
-    "additive_overlays": "",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "55",
-    "name": "Brennender Tannenbaum",
-    "place": "",
-    "place_array": [],
-    "average_credits": 870,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": { "firetrucks": 1 },
-    "chances": {},
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 6 },
-    "overlay_index": null,
-    "base_mission_id": 55,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "56",
-    "name": "Betrunkene Person auf Weihnachtsmarkt",
-    "place": "Weihnachtsmarkt",
-    "place_array": ["Weihnachtsmarkt"],
-    "average_credits": null,
-    "generated_by": "",
-    "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
-    ],
-    "requirements": {},
-    "chances": { "patient_transport": 30 },
-    "additional": {
-      "possible_patient": 1,
-      "possible_patient_min": 1,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
-    "overlay_index": null,
-    "base_mission_id": 56,
-    "additive_overlays": "",
-    "mission_categories": ["ambulance"]
-  },
-  {
     "id": "57",
     "name": "Gestürzter Fußgänger",
     "place": "",
@@ -4384,60 +4241,6 @@
     "mission_categories": ["police"]
   },
   {
-    "id": "129",
-    "name": "Brennender Adventskranz",
-    "place": "",
-    "place_array": [],
-    "average_credits": 800,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": { "firetrucks": 1 },
-    "chances": {},
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 5 },
-    "overlay_index": null,
-    "base_mission_id": 129,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "130",
-    "name": "Rangelei auf Weihnachtsmarkt",
-    "place": "Weihnachtsmarkt",
-    "place_array": ["Weihnachtsmarkt"],
-    "average_credits": 600,
-    "generated_by": "",
-    "icons": [
-      "/images/baseball_gruen.png",
-      "/images/baseball_gelb.png",
-      "/images/baseball_rot.png"
-    ],
-    "requirements": { "police_cars": 2 },
-    "chances": { "patient_transport": 30 },
-    "additional": {
-      "possible_patient": 2,
-      "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [4],
-      "patient_specialization_captions": ["Unfallchirurgie"],
-      "patient_specializations": "Unfallchirurgie"
-    },
-    "prerequisites": { "main_building": 6, "police_stations": 2 },
-    "overlay_index": null,
-    "base_mission_id": 130,
-    "additive_overlays": "",
-    "mission_categories": ["police"]
-  },
-  {
     "id": "131",
     "name": "Mittlerer Feldbrand",
     "place": "",
@@ -7108,61 +6911,6 @@
     "base_mission_id": 201,
     "additive_overlays": "a",
     "mission_categories": ["riot_police"]
-  },
-  {
-    "id": "202",
-    "name": "Diebstahl auf Weihnachtsmarkt",
-    "place": "Weihnachtsmarkt",
-    "place_array": ["Weihnachtsmarkt"],
-    "average_credits": 300,
-    "generated_by": "",
-    "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
-    ],
-    "requirements": { "police_cars": 1 },
-    "chances": {},
-    "additional": {
-      "filter_id": "police_station_missions",
-      "max_civil_patrol_replacing_police_cars": 1,
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
-    },
-    "prerequisites": { "main_building": 6, "police_stations": 2 },
-    "overlay_index": null,
-    "base_mission_id": 202,
-    "additive_overlays": "",
-    "mission_categories": ["police"]
-  },
-  {
-    "id": "203",
-    "name": "Brennende Weihnachtsmarktbude",
-    "place": "Weihnachtsmarkt",
-    "place_array": ["Weihnachtsmarkt"],
-    "average_credits": 610,
-    "generated_by": "",
-    "icons": [
-      "/images/fire_gruen.png",
-      "/images/fire_gelb.png",
-      "/images/fire_rot.png"
-    ],
-    "requirements": { "firetrucks": 2 },
-    "chances": { "nef": 10, "patient_transport": 30 },
-    "additional": {
-      "possible_patient": 1,
-      "filter_id": "firehouse_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": { "main_building": 0, "fire_stations": 2 },
-    "overlay_index": null,
-    "base_mission_id": 203,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
   },
   {
     "id": "204",
@@ -18046,6 +17794,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -18149,7 +17898,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [89, 120, 121, 394, 13],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -18340,6 +18090,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -18648,46 +18399,6 @@
     "base_mission_id": 427,
     "additive_overlays": "",
     "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "428",
-    "name": "Schneelast auf Dach",
-    "place": "",
-    "place_array": [],
-    "average_credits": 1500,
-    "generated_by": "",
-    "icons": [
-      "/images/snowy_gruen.png",
-      "/images/snowy_gelb.png",
-      "/images/snowy_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 1,
-      "battalion_chief_vehicles": 1,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1,
-      "height_rescue_units": 1,
-      "police_cars": 1
-    },
-    "chances": {
-      "platform_trucks": 50,
-      "heavy_rescue_vehicles": 20,
-      "height_rescue_units": 5
-    },
-    "additional": {
-      "filter_id": "firehouse_missions",
-      "date_start": "2021-02-05T10:00:00+01:00",
-      "date_end": "2021-02-12T10:00:00+01:00"
-    },
-    "prerequisites": {
-      "main_building": 0,
-      "police_stations": 1,
-      "fire_stations": 3
-    },
-    "overlay_index": null,
-    "base_mission_id": 428,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
   },
   {
     "id": "429",
@@ -19345,6 +19056,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -19377,6 +19089,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
@@ -19748,6 +19461,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-04-08T09:00:00Z",
       "date_end": "2022-04-18T23:59:59+02:00"
     },
@@ -19899,7 +19613,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 448,
@@ -20649,6 +20366,7 @@
     "additional": {
       "expansion_missions_ids": [433],
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -20683,6 +20401,7 @@
     "additional": {
       "expansion_missions_ids": [433],
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -21502,6 +21221,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [4],
       "patient_specialization_captions": ["Unfallchirurgie"],
       "patient_specializations": "Unfallchirurgie"
@@ -22589,6 +22309,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -22615,6 +22336,7 @@
       "possible_patient": 17,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allgemeine Chirurgie"],
       "patient_specializations": "Allgemeine Chirurgie"
@@ -22647,6 +22369,7 @@
       "possible_patient": 17,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allgemeine Chirurgie"],
       "patient_specializations": "Allgemeine Chirurgie"
@@ -23502,6 +23225,7 @@
       "possible_patient": 2,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allgemeine Chirurgie"],
       "patient_specializations": "Allgemeine Chirurgie"
@@ -23747,6 +23471,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -23771,7 +23496,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 511,
@@ -23792,7 +23520,10 @@
     ],
     "requirements": { "police_cars": 1 },
     "chances": {},
-    "additional": { "filter_id": "police_station_missions" },
+    "additional": {
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
+    },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
     "base_mission_id": 512,
@@ -25142,6 +24873,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [7],
@@ -25184,6 +24916,7 @@
     "additional": {
       "possible_patient": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1,
       "patient_at_end_of_mission": true,
       "patient_specialization_ids": [7],
@@ -25543,6 +25276,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -25569,6 +25303,7 @@
       "max_possible_prisoners": 1,
       "allow_rw_instead_of_lf": true,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -25603,6 +25338,7 @@
       "max_possible_prisoners": 1,
       "allow_rw_instead_of_lf": true,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -26535,7 +26271,8 @@
       "duration_text": "2 Stunden",
       "duration": 7200,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "mek": 1 },
     "overlay_index": null,
@@ -26656,6 +26393,7 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -26681,6 +26419,7 @@
     "additional": {
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": {
@@ -26823,6 +26562,7 @@
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
       "need_k9_only_if_guard_dogs_present": true,
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -27503,6 +27243,7 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "allow_ktw_instead_of_rtw": true,
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 2,
       "allow_ktw_b_instead_of_rtw": true
     },
@@ -27549,6 +27290,7 @@
       "guard_mission": true,
       "filter_id": "police_station_missions",
       "allow_ktw_instead_of_rtw": true,
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 2,
       "allow_ktw_b_instead_of_rtw": true
     },
@@ -27585,6 +27327,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "mek": 1, "police_stations": 4 },
@@ -27610,6 +27353,7 @@
     "additional": {
       "max_possible_prisoners": 5,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 2
     },
     "prerequisites": { "main_building": 6, "mek": 1, "police_stations": 5 },
@@ -27640,6 +27384,7 @@
     "additional": {
       "max_possible_prisoners": 5,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 2
     },
     "prerequisites": {
@@ -27671,6 +27416,7 @@
       "followup_missions_ids": [775],
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -27695,6 +27441,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
@@ -27809,6 +27556,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -27849,6 +27597,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -28039,6 +27788,7 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allgemeine Chirurgie"],
@@ -28068,6 +27818,7 @@
       "possible_patient": 1,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 1,
       "patient_specialization_ids": [1],
       "patient_specialization_captions": ["Allgemeine Chirurgie"],
@@ -28650,506 +28401,6 @@
     "base_mission_id": 581,
     "additive_overlays": "",
     "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "582",
-    "name": "Gestürzter Schlittschuhläufer",
-    "place": "See",
-    "place_array": ["See"],
-    "average_credits": null,
-    "generated_by": "",
-    "icons": [
-      "/images/snowy_gruen.png",
-      "/images/snowy_gelb.png",
-      "/images/snowy_rot.png"
-    ],
-    "requirements": {},
-    "chances": { "nef": 10, "patient_transport": 50 },
-    "additional": {
-      "possible_patient": 1,
-      "possible_patient_min": 1,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [1],
-      "patient_specialization_captions": ["Allgemeine Chirurgie"],
-      "patient_specializations": "Allgemeine Chirurgie"
-    },
-    "prerequisites": { "main_building": 2, "rescue_stations": 2 },
-    "overlay_index": null,
-    "base_mission_id": 582,
-    "additive_overlays": "",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "583",
-    "name": "Massenanfall durch Lebkuchenverzehr (klein)",
-    "place": "",
-    "place_array": [],
-    "average_credits": 2500,
-    "generated_by": "",
-    "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 2,
-      "battalion_chief_vehicles": 1,
-      "mobile_air_vehicles": 1,
-      "gwmess": 1,
-      "police_cars": 2,
-      "hazmat_dekon": 1
-    },
-    "chances": {
-      "mobile_air_vehicles": 5,
-      "gwmess": 15,
-      "hazmat_dekon": 10,
-      "nef": 20,
-      "patient_transport": 25
-    },
-    "additional": {
-      "possible_patient": 25,
-      "possible_patient_min": 10,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": {
-      "main_building": 2,
-      "rescue_stations": 10,
-      "police_stations": 2,
-      "fire_stations": 6
-    },
-    "overlay_index": null,
-    "base_mission_id": 583,
-    "additive_overlays": "",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "583/a",
-    "name": "Massenanfall durch Lebkuchenverzehr (klein)",
-    "place": "",
-    "place_array": [],
-    "average_credits": 2900,
-    "generated_by": "",
-    "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 2,
-      "battalion_chief_vehicles": 1,
-      "mobile_air_vehicles": 1,
-      "gwmess": 1,
-      "police_cars": 2,
-      "hazmat_dekon": 1,
-      "police_service_group_leader": 1
-    },
-    "chances": {
-      "mobile_air_vehicles": 5,
-      "gwmess": 15,
-      "hazmat_dekon": 10,
-      "nef": 20,
-      "patient_transport": 25
-    },
-    "additional": {
-      "possible_patient": 25,
-      "possible_patient_min": 10,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": {
-      "main_building": 2,
-      "rescue_stations": 10,
-      "police_stations": 7,
-      "police_service_group_leader": 5,
-      "fire_stations": 6
-    },
-    "overlay_index": null,
-    "base_mission_id": 583,
-    "additive_overlays": "a",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "584",
-    "name": "Massenanfall durch Lebkuchenverzehr (groß)",
-    "place": "",
-    "place_array": [],
-    "average_credits": 5000,
-    "generated_by": "",
-    "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 3,
-      "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 1,
-      "mobile_air_vehicles": 1,
-      "gwmess": 1,
-      "police_cars": 6,
-      "hazmat_dekon": 1
-    },
-    "chances": {
-      "mobile_air_vehicles": 10,
-      "gwmess": 20,
-      "hazmat_dekon": 5,
-      "nef": 20,
-      "patient_transport": 25
-    },
-    "additional": {
-      "possible_patient": 70,
-      "possible_patient_min": 35,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": {
-      "main_building": 2,
-      "rescue_stations": 15,
-      "police_stations": 5,
-      "fire_stations": 11
-    },
-    "overlay_index": null,
-    "base_mission_id": 584,
-    "additive_overlays": "",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "584/a",
-    "name": "Massenanfall durch Lebkuchenverzehr (groß)",
-    "place": "",
-    "place_array": [],
-    "average_credits": 5400,
-    "generated_by": "",
-    "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 3,
-      "battalion_chief_vehicles": 1,
-      "heavy_rescue_vehicles": 1,
-      "mobile_air_vehicles": 1,
-      "gwmess": 1,
-      "police_cars": 6,
-      "hazmat_dekon": 1,
-      "police_service_group_leader": 1
-    },
-    "chances": {
-      "mobile_air_vehicles": 10,
-      "gwmess": 20,
-      "hazmat_dekon": 5,
-      "nef": 20,
-      "patient_transport": 25
-    },
-    "additional": {
-      "possible_patient": 70,
-      "possible_patient_min": 35,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": {
-      "main_building": 2,
-      "rescue_stations": 15,
-      "police_stations": 7,
-      "police_service_group_leader": 5,
-      "fire_stations": 11
-    },
-    "overlay_index": null,
-    "base_mission_id": 584,
-    "additive_overlays": "a",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "585",
-    "name": "Massenanfall durch Lebkuchenverzehr (riesig)",
-    "place": "",
-    "place_array": [],
-    "average_credits": 14000,
-    "generated_by": "",
-    "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 16,
-      "battalion_chief_vehicles": 3,
-      "mobile_command_vehicles": 1,
-      "heavy_rescue_vehicles": 1,
-      "mobile_air_vehicles": 1,
-      "gwmess": 1,
-      "police_cars": 14,
-      "hazmat_dekon": 1
-    },
-    "chances": {
-      "mobile_command_vehicles": 50,
-      "mobile_air_vehicles": 25,
-      "gwmess": 50,
-      "nef": 20,
-      "patient_transport": 25,
-      "helicopter": 2
-    },
-    "additional": {
-      "possible_patient": 250,
-      "possible_patient_min": 120,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": {
-      "main_building": 2,
-      "rescue_stations": 46,
-      "police_stations": 9,
-      "fire_stations": 16
-    },
-    "overlay_index": null,
-    "base_mission_id": 585,
-    "additive_overlays": "",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "585/a",
-    "name": "Massenanfall durch Lebkuchenverzehr (riesig)",
-    "place": "",
-    "place_array": [],
-    "average_credits": 14800,
-    "generated_by": "",
-    "icons": [
-      "/images/dancinghall_gruen.png",
-      "/images/dancinghall_gelb.png",
-      "/images/dancinghall_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 16,
-      "battalion_chief_vehicles": 3,
-      "mobile_command_vehicles": 1,
-      "heavy_rescue_vehicles": 1,
-      "mobile_air_vehicles": 1,
-      "gwmess": 1,
-      "police_cars": 14,
-      "hazmat_dekon": 1,
-      "police_service_group_leader": 2
-    },
-    "chances": {
-      "mobile_command_vehicles": 50,
-      "mobile_air_vehicles": 25,
-      "gwmess": 50,
-      "nef": 20,
-      "patient_transport": 25,
-      "helicopter": 2
-    },
-    "additional": {
-      "possible_patient": 250,
-      "possible_patient_min": 120,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": {
-      "main_building": 2,
-      "rescue_stations": 46,
-      "police_stations": 15,
-      "police_service_group_leader": 10,
-      "fire_stations": 16
-    },
-    "overlay_index": null,
-    "base_mission_id": 585,
-    "additive_overlays": "a",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "586",
-    "name": "Weihnachtsschlitten in Baum",
-    "place": "",
-    "place_array": [],
-    "average_credits": 1500,
-    "generated_by": "",
-    "icons": [
-      "/images/caraccident_gruen.png",
-      "/images/caraccident_gelb.png",
-      "/images/caraccident_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 2,
-      "fwk": 1,
-      "battalion_chief_vehicles": 1,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1,
-      "height_rescue_units": 1
-    },
-    "chances": {
-      "fwk": 10,
-      "nef": 10,
-      "patient_transport": 50,
-      "height_rescue_units": 50
-    },
-    "additional": {
-      "possible_patient": 1,
-      "filter_id": "firehouse_missions",
-      "patient_at_end_of_mission": true,
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [4],
-      "patient_specialization_captions": ["Unfallchirurgie"],
-      "patient_specializations": "Unfallchirurgie"
-    },
-    "prerequisites": {
-      "main_building": 0,
-      "rescue_stations": 1,
-      "fire_stations": 5
-    },
-    "overlay_index": null,
-    "base_mission_id": 586,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "587",
-    "name": "Weihnachtsmann in Kamin steckengeblieben",
-    "place": "",
-    "place_array": [],
-    "average_credits": 1500,
-    "generated_by": "",
-    "icons": [
-      "/images/climbing_gruen.png",
-      "/images/climbing_gelb.png",
-      "/images/climbing_rot.png"
-    ],
-    "requirements": {
-      "firetrucks": 1,
-      "fwk": 1,
-      "platform_trucks": 1,
-      "heavy_rescue_vehicles": 1
-    },
-    "chances": { "nef": 10, "patient_transport": 30 },
-    "additional": {
-      "possible_patient": 1,
-      "possible_patient_min": 1,
-      "filter_id": "firehouse_missions",
-      "patient_at_end_of_mission": true,
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [4],
-      "patient_specialization_captions": ["Unfallchirurgie"],
-      "patient_specializations": "Unfallchirurgie"
-    },
-    "prerequisites": {
-      "main_building": 0,
-      "rescue_stations": 1,
-      "fire_stations": 6
-    },
-    "overlay_index": null,
-    "base_mission_id": 587,
-    "additive_overlays": "",
-    "mission_categories": ["fire"]
-  },
-  {
-    "id": "588",
-    "name": "Betrunkener Weihnachtsmann",
-    "place": "",
-    "place_array": [],
-    "average_credits": null,
-    "generated_by": "",
-    "icons": [
-      "/images/bar_coktail_gruen.png",
-      "/images/bar_coktail_gelb.png",
-      "/images/bar_coktail_rot.png"
-    ],
-    "requirements": {},
-    "chances": { "nef": 5, "patient_transport": 60 },
-    "additional": {
-      "possible_patient": 1,
-      "possible_patient_min": 1,
-      "filter_id": "ambulance_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00",
-      "patient_specialization_ids": [0],
-      "patient_specialization_captions": ["Allgemeine Innere"],
-      "patient_specializations": "Allgemeine Innere"
-    },
-    "prerequisites": { "main_building": 2, "rescue_stations": 1 },
-    "overlay_index": null,
-    "base_mission_id": 588,
-    "additive_overlays": "",
-    "mission_categories": ["ambulance"]
-  },
-  {
-    "id": "589",
-    "name": "Verkehrsunsicherer Rentierschlitten",
-    "place": "",
-    "place_array": [],
-    "average_credits": 500,
-    "generated_by": "",
-    "icons": [
-      "/images/icy_road_gruen.png",
-      "/images/icy_road_gelb.png",
-      "/images/icy_road_rot.png"
-    ],
-    "requirements": { "police_cars": 1 },
-    "chances": {},
-    "additional": {
-      "filter_id": "police_station_missions",
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
-    },
-    "prerequisites": { "main_building": 6, "police_stations": 1 },
-    "overlay_index": null,
-    "base_mission_id": 589,
-    "additive_overlays": "",
-    "mission_categories": ["police"]
-  },
-  {
-    "id": "590",
-    "name": "Diebstahl aus Weihnachtsbäckerei",
-    "place": "",
-    "place_array": [],
-    "average_credits": 700,
-    "generated_by": "",
-    "icons": [
-      "/images/theft_gruen.png",
-      "/images/theft_gelb.png",
-      "/images/theft_rot.png"
-    ],
-    "requirements": { "police_cars": 1 },
-    "chances": {},
-    "additional": {
-      "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions",
-      "max_civil_patrol_replacing_police_cars": 1,
-      "date_start": "2021-12-01T10:00:00+01:00",
-      "date_end": "2021-12-26T23:59:00+01:00"
-    },
-    "prerequisites": { "main_building": 6, "police_stations": 1 },
-    "overlay_index": null,
-    "base_mission_id": 590,
-    "additive_overlays": "",
-    "mission_categories": ["police"]
   },
   {
     "id": "591",
@@ -29743,6 +28994,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 2,
       "date_start": "2022-02-04T10:00:00Z",
       "date_end": "2022-02-15T10:00:00Z"
@@ -29769,6 +29021,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-02-04T10:00:00Z",
       "date_end": "2022-02-15T10:00:00Z"
     },
@@ -29794,6 +29047,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "max_civil_patrol_replacing_police_cars": 2,
       "date_start": "2022-02-04T10:00:00Z",
       "date_end": "2022-02-15T10:00:00Z"
@@ -29930,7 +29184,8 @@
       "duration_text": "30 Minuten",
       "duration": 1800,
       "guard_mission": true,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -29957,7 +29212,8 @@
         72, 73, 77, 87, 92, 102, 108, 152, 194, 244, 274, 277, 295, 317, 319,
         339, 352, 391, 392, 411, 431, 447, 460, 499, 527, 532
       ],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -30315,7 +29571,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -30339,7 +29596,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -30363,7 +29621,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -31252,6 +30511,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-05-26T09:00:00Z",
       "date_end": "2022-05-28T21:59:00Z"
     },
@@ -31285,6 +30545,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-05-26T09:00:00Z",
       "date_end": "2022-05-28T21:59:00Z"
     },
@@ -31315,6 +30576,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-05-26T09:00:00Z",
       "date_end": "2022-05-28T21:59:00Z"
     },
@@ -31340,7 +30602,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [486],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31368,7 +30631,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 3,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31400,7 +30664,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 3,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31431,7 +30696,8 @@
       "expansion_missions_ids": [634, 635],
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
-      "need_k9_only_if_guard_dogs_present": true
+      "need_k9_only_if_guard_dogs_present": true,
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31460,7 +30726,8 @@
     "additional": {
       "expansion_missions_ids": [635],
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31495,7 +30762,8 @@
     "additional": {
       "expansion_missions_ids": [635],
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31530,7 +30798,8 @@
     "chances": { "k9": 50, "civil_patrolcar": 70 },
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31566,7 +30835,8 @@
     "chances": { "k9": 50, "civil_patrolcar": 70 },
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31605,7 +30875,8 @@
     "additional": {
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31645,7 +30916,8 @@
     "additional": {
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -31909,6 +31181,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-11-18T10:00:00Z",
       "date_end": "2022-12-18T22:59:00Z"
     },
@@ -32475,7 +31748,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [122, 123, 125, 127, 394],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -33469,7 +32743,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [89, 128],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 2 },
     "overlay_index": null,
@@ -33824,6 +33099,7 @@
       "possible_patient": 1,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-09-30T09:00:00Z",
       "date_end": "2022-11-30T22:59:00Z",
       "patient_specialization_ids": [1],
@@ -34082,7 +33358,8 @@
     "chances": {},
     "additional": {
       "expansion_missions_ids": [688],
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -34285,7 +33562,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -34317,7 +33595,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 2,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": {
       "main_building": 6,
@@ -34595,7 +33874,8 @@
     "chances": {},
     "additional": {
       "max_possible_prisoners": 1,
-      "filter_id": "police_station_missions"
+      "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true
     },
     "prerequisites": { "main_building": 6, "police_stations": 1 },
     "overlay_index": null,
@@ -35417,6 +34697,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-02-11T10:00:00Z",
       "date_end": "2022-02-12T10:00:00Z"
     },
@@ -35674,6 +34955,7 @@
       "possible_patient": 6,
       "max_possible_prisoners": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -35708,6 +34990,7 @@
       "possible_patient": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -35742,6 +35025,7 @@
       "possible_patient": 2,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z",
       "patient_specialization_ids": [0],
@@ -35866,6 +35150,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z"
     },
@@ -35918,6 +35203,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-02-25T10:00:00Z",
       "date_end": "2022-03-01T23:59:00Z"
     },
@@ -35992,6 +35278,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "patient_specialization_ids": [0],
       "patient_specialization_captions": ["Allgemeine Innere"],
       "patient_specializations": "Allgemeine Innere"
@@ -36110,6 +35397,7 @@
       "possible_patient": 3,
       "possible_patient_min": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-03-18T10:00:00Z",
       "date_end": "2022-03-28T23:59:59+02:00",
       "patient_specialization_ids": [4],
@@ -36200,6 +35488,7 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_missions_ids": [729, 730],
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-03-18T10:00:00Z",
       "date_end": "2022-03-28T23:59:59+02:00"
     },
@@ -36227,6 +35516,7 @@
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
       "subsequent_mission_only": true,
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-03-18T10:00:00Z",
       "date_end": "2022-03-28T23:59:59+02:00"
     },
@@ -36813,6 +36103,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-05-06T09:00:00Z",
       "date_end": "2022-05-08T21:59:00Z"
     },
@@ -36838,6 +36129,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-05-06T09:00:00Z",
       "date_end": "2022-05-08T21:59:00Z"
     },
@@ -36863,6 +36155,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-05-06T09:00:00Z",
       "date_end": "2022-05-08T21:59:00Z"
     },
@@ -37304,6 +36597,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z"
     },
@@ -37329,6 +36623,7 @@
     "chances": {},
     "additional": {
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z"
     },
@@ -37355,6 +36650,7 @@
     "additional": {
       "max_possible_prisoners": 1,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z"
     },
@@ -37382,6 +36678,7 @@
       "min_possible_prisoners": 1,
       "max_possible_prisoners": 3,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z"
     },
@@ -37409,6 +36706,7 @@
       "min_possible_prisoners": 2,
       "max_possible_prisoners": 4,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z"
     },
@@ -37594,6 +36892,7 @@
       "duration": 1200,
       "guard_mission": true,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z"
     },
@@ -37632,6 +36931,7 @@
       "duration": 600,
       "guard_mission": true,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z"
     },
@@ -37664,6 +36964,7 @@
       "possible_patient": 18,
       "possible_patient_min": 2,
       "filter_id": "police_station_missions",
+      "allow_police_motorcycle_instead_of_fustw": true,
       "date_start": "2022-07-08T09:00:00Z",
       "date_end": "2022-07-10T21:59:00Z",
       "patient_specialization_ids": [1],
